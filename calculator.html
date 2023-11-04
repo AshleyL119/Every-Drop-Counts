@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Every Drop Counts | Water Usage Quiz</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <h1>Fill Out Our Water Usage Calculator!</h1>
+        <form oninput="x.value=parseInt(shower.value)*2.5">
+            <label for="shower">Minutes in Shower</label>
+            <input id="shower" name="shower" type="number" placeholder="0">
+            =<output id="showerOutput" name="x" for="shower">0</output> 
+            <p>gallons of water</p>
+        </form>
+         
+        <form oninput="y.value=parseInt(toilet.value)*2">
+            <label for="toilet">Toilet Flushes in a day</label>
+            <input id="toilet" name="toilet" type="number" placeholder="0">
+            =<output id="toiletOutput" name="y" for="toilet">0</output>
+            <p>gallons of water</p>
+        </form>
+
+        <form oninput="z.value=parseInt(dishwasher.value)*6">
+            <label for="dishwasher">Dishwasher cycles in a day</label>
+            <input id="dishwasher" name="dishwasher" type="number" placeholder="0">
+            =<output id="dishwasherOutput" name="z" for="dishwasher">0</output>
+            <p>gallons of water</p>
+        </form>
+
+        <form oninput="a.value=parseInt(cooking.value)*2.5">
+            <label for="cooking">Water used for cooking (in cups)</label>
+            <input id="cooking" name="cooking" type="number" placeholder="0">
+            =<output id="cookingOutput" name="a" for="cooking">0</output>
+            <p>gallons of water</p>
+        </form>
+
+        <form oninput="b.value=parseInt(drinking.value)*0.0078125">
+            <label for="drinking">Water drank (in oz)</label>
+            <input id="drinking" name="drinking" type="number" placeholder="0">
+            =<output id="drinkingOutput" name="b" for="drinking">0</output>
+            <p>gallons of water</p>
+        </form>
+
+        <form oninput="c.value=parseInt(gardening.value)*0.623">
+            <label for="gardening">Lawn Size (in sq. ft.)</label>
+            <input id="gardening" name="gardening" type="number" placeholder="0">
+            =<output id="gardeningOutput" name="c" for="gardening">0</output>
+            <p>gallons of water</p>
+        </form>
+
+        <form oninput="d.value=parseInt(clothes.value)*20">
+            <label for="clothes">Loads of clothes washed</label>
+            <input id="clothes" name="clothes" type="number" placeholder="0">
+            =<output id="clothesOutput" name="d" for="clothes">0</output>
+            <p>gallons of water</p>
+        </form>
+    </body>
+</html>
