@@ -1,0 +1,31 @@
+h1{
+    font-family:'Courier New';
+    color:#1e7fe1 ;
+    text-decoration-line:underline;
+    text-decoration-color: #1e7fe1;
+    text-align: center;
+}
+
+h4{
+    font-size:larger;
+}
+
+h3{
+    font-size:larger;
+    font-family:'Franklin Gothic Medium'
+    text-align:left;
+    color: #40bf76;
+}
+
+.list{
+    font-size:large;
+}
+
+a{
+    font-size:larger
+
+}
+
+body{
+    background:linear-gradient(#FFFFFF,#bfe5e8)
+}
