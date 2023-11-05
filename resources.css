@@ -1,5 +1,5 @@
 h1{
-    font-family:'Courier New';
+    font-family:'Franklin Gothic Medium';
     color:#1e7fe1 ;
     text-decoration-line:underline;
     text-decoration-color: #1e7fe1;
@@ -12,7 +12,7 @@ h4{
 
 h3{
     font-size:larger;
-    font-family:'Franklin Gothic Medium'
+    font-family:'Franklin Gothic Medium';
     text-align:left;
     color: #40bf76;
 }
